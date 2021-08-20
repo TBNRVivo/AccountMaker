@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-analytics.js"></script>
+    <script src="form.js"></script>
+    <link href="style.css" rel="stylesheet" />
+    <title>Login System</title>
+  </head>
+  <body>
+    <div class="formContainer">
+      <h1>Enter Credentials Here:</h1>
+      <input type="email" placeholder="Email Here" id="email" /><br />
+      <input type="password" placeholder="Password Here" id="password" /><br />
+      <button onclick="signUp()" id="signUp" class="custom-btn btn-15">
+        Sign Up
+      </button>
+      <button onclick="signIn()" id="signIp" class="custom-btn btn-10">
+        Sign In
+      </button>
+      <button onclick="signout()" id="signOut" class="custom-btn btn-2">
+        Sign Out
+      </button>
+    </div>
+  </body>
+</html>
